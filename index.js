@@ -1,1 +1,7 @@
-// code your solution here
+function superbowlWin(array) {
+  array.find(findWin);
+}
+
+function findWin(element) {
+  return element === "W";
+}
